@@ -4,7 +4,7 @@ This assignment focuses on the genome of *Enterococcus faecium*.
 
 ## Data
 The genome sequence and associated annotation files were obtained from [here](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_009734005.1/). 
-Orifinal files can be accessed from NCBI:
+Original files can be accessed from NCBI:
 - `genomic.fna.gz`: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/734/005/GCF_009734005.1_ASM973400v2/GCF_009734005.1_ASM973400v2_genomic.fna.gz
 - `genomic.gff.gz`: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/734/005/GCF_009734005.1_ASM973400v2/GCF_009734005.1_ASM973400v2_genomic.gff.gz
 
@@ -37,7 +37,7 @@ I generated the Makefile using the following prompt:
 The resulting Makefile was saved in the `week02` directory and is used to automate the download and organization of the genome data.
 
 ### Running the Makefile
-To run the Makefile, navigate to the `week02` direcotry and run:
+To run the Makefile, navigate to the `week02` directory and run:
 ```
 make
 ```
@@ -90,7 +90,7 @@ output:
 >NZ_CP038996.1 Enterococcus faecium strain SRR24 chromosome, complete genome
 >NZ_CP038997.1 Enterococcus faecium strain SRR24 plasmid pSRR24
 ```
-The output shows that this contains two sequence records: **NZ_CP038996.1**, which is the complete chromosome of *E. faecium* strain SRR24 and **NZ_CP038997.1**, which is the plasmid pSRR24. Thus, the FASTA file contains **one chromosome and one plasmid**.
+The output shows that this FASTA file ontains two sequence records: **NZ_CP038996.1**, which is the complete chromosome of *E. faecium* strain SRR24 and **NZ_CP038997.1**, which is the plasmid pSRR24. Thus, the FASTA file contains **one chromosome and one plasmid**.
 
 To determine the length of each sequence, I used:
 ```
@@ -108,7 +108,7 @@ First, navigate to the `gff` directory:
 ```
 cd ../gff
 ```
-To determine the total number of annoations in the GFF file, I used:
+To determine the total number of annotations in the GFF file, I used:
 ```
 gzip -cd Efaecium.gff.gz | grep -v "^#" | wc -l
 ```
@@ -116,7 +116,7 @@ output:
 ```
 5934
 ```
-This means there are 5,934 annotations in this GFF file, exluding metadata and comment lines beginning with `#`.
+This means there are 5,934 annotations in this GFF file, excluding metadata and comment lines beginning with `#`.
 
 I also examined the types of annotated features using:
 ```
@@ -151,7 +151,7 @@ After loading the genome data into IGV, I selected *E. faecium* from the genome 
 ![screenshot1](screenshots/Screenshot1.png)
 
 #### How tightly packed are the genes in this genome? Estimate the gene-to-gene distance via the browser.
-To estimate how tightly packed the genes are in the chromosome, I first looked at several regions of the chromosoms using IGV. 
+To estimate how tightly packed the genes are in the chromosome, I first looked at several regions of the chromosomes using IGV. 
 
 1. `NZ_CP038996.1:100000-110000`
 ![screenshot2](screenshots/Screenshot2.png)
