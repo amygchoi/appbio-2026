@@ -5,8 +5,8 @@ This assignment focuses on the genome of *Enterococcus faecium*.
 ## Data
 The genome sequence and associated annotation files were obtained from [here](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_009734005.1/). 
 Orifinal files can be accessed from NCBI:
-- `genome.fna.gz`: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/734/005/GCF_009734005.1_ASM973400v2/GCF_009734005.1_ASM973400v2_genomic.fna.gz
-- `genome.gff.gz`: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/734/005/GCF_009734005.1_ASM973400v2/GCF_009734005.1_ASM973400v2_genomic.gff.gz
+- `genomic.fna.gz`: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/734/005/GCF_009734005.1_ASM973400v2/GCF_009734005.1_ASM973400v2_genomic.fna.gz
+- `genomic.gff.gz`: https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/009/734/005/GCF_009734005.1_ASM973400v2/GCF_009734005.1_ASM973400v2_genomic.gff.gz
 
 
 ## week02 Structure 
