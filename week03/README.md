@@ -70,3 +70,6 @@ I asked ```GPT-5.6 Sol```, using the following prompt:
 
 
 Victoria's ```README.md``` has a clear overall structure and includes the NCBI accession, source link, Makefile targets, selected genomic coordinate, and IGV screenshots. These elements make the purpose and general workflow easy to understand. Its reproducibility could be improved by listing the required software, specifying the working directory and output paths, and providing clearer instructions for indexing and loading the files into IGV. My ```README.md``` provides more detailed support for its results through direct download links, commands, outputs, file locations, annotation counts, and gene-spacing measurements. This makes most of its command-line analysis easier to reproduce. It could still be improved by adding a required-software section, explaining how to load the custom files into IGV, and shortening the Makefile-generation prompt. Overall, according to ChatGPT, mine provides more complete reproducibility information, while the other one offers a useful overview that would benefit from a few additional details and corrections.
+
+
+Link to the pull request: https://github.com/VAbramRepo/appbio-2026/pull/1
