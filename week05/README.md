@@ -58,12 +58,6 @@ Coverage is not completely uniform. In the IGV view, the height of the coverage 
 
 
 ## Makefile and usage
-
-
-
-
-## Makefile and usage
-
 The Makefile downloads the *E. faecium* SRR24 reference genome and a subset of paired-end reads from SRA run `SRR37686361`. It indexes the reference with BWA, aligns the reads, sorts and indexes the BAM file, and generates a `samtools flagstat` report. I used `V2271` as the sample name because it appears in the *Name* field of the SRA experiment record.
 ![screenshot2](png/sc2.png)
 
