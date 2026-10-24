@@ -10,7 +10,7 @@ For this week's assignment, I used the same reference genome and processed four 
 | V2271 | [SRR37686361](https://trace.ncbi.nlm.nih.gov/Traces/index.html?view=run_browser&acc=SRR37686361&display=metadata) | [SRX32564595](https://www.ncbi.nlm.nih.gov/sra/SRX32564595) |
 | V131 | [SRR37686362](https://trace.ncbi.nlm.nih.gov/Traces/index.html?view=run_browser&acc=SRR37686362&display=metadata) | [SRX32564594](https://www.ncbi.nlm.nih.gov/sra/SRX32564594) |
 | V121 | [SRR37686363](https://trace.ncbi.nlm.nih.gov/Traces/index.html?view=run_browser&acc=SRR37686363&display=metadata) | [SRX32564593](https://www.ncbi.nlm.nih.gov/sra/SRX32564593) |
-| V93 | [SRR37686364](https://trace.ncbi.nlm.nih.gov/Traces/index.html?view=run_browser&acc=SRR37686364&display=metadata) | [SRX32564592](https://www.ncbi.nlm.nih.gov/sra/SRX32564593ㄴ) |
+| V93 | [SRR37686364](https://trace.ncbi.nlm.nih.gov/Traces/index.html?view=run_browser&acc=SRR37686364&display=metadata) | [SRX32564592](https://www.ncbi.nlm.nih.gov/sra/SRX32564593) |
 
 
 
