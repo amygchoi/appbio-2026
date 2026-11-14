@@ -15,3 +15,4 @@ Weekly assignments will be posted in this repository.
 * Week 9: https://github.com/amygchoi/appbio-2026/tree/main/week09
 * Week 10: https://github.com/amygchoi/appbio-2026/tree/main/week10
 * Week 11: https://github.com/amygchoi/appbio-2026/tree/main/week11
+* Week 12: https://github.com/amygchoi/appbio-2026/tree/main/week12
